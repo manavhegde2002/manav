@@ -129,9 +129,44 @@ public class Student {
         // If marks are greater than or equal to 70, return 'C'
         // If marks are greater than or equal to 60, return 'D'
         // If marks are greater than or equal to 50, return 'E'
-        // If marks are less than 50, return 'F'
-       
-    }
-}
 
-//*
+
+
+ *//no is prime or not using loops
+
+package com.loops;
+
+public class MyNumberRunner {
+
+	public static void main(String[] args) {
+		MyNumber number = new MyNumber(3);
+		boolean isprime = number.isprime();
+		System.out.println("isprime" + isprime);
+		// TODO Auto-generated method stub
+
+	}
+
+}
+package com.loops;
+
+public class MyNumber {
+
+	private int number;
+
+	public MyNumber(int number) {
+		this.number = number;
+		// TODO Auto-generated constructor stub
+	}
+
+	public boolean isprime() {
+		for (int i = 2; i <= number - 1; i++) {
+
+			if (number % i == 0) {
+
+		return false;
+
+	}
+}
+return true;
+}
+}
