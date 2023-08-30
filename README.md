@@ -39,3 +39,45 @@ public class menurunner {
 	}
 
 }
+
+
+*//write a java code for switch statement for days in a week
+package exercise;
+
+public class switchexerciserunner {
+public static void main(string[] args ) {
+	System.out.println(determinenameofday(0));
+}
+public static string determinenameofday(int daynumber) {
+	string result = "";
+	switch(daynumber) {
+	case 0:
+		result="sunday";
+		break;
+	case 1:
+		result="monday";
+	break;
+	case 2:
+		result="tuesday";
+	break;
+	case 3:
+	
+	result="wednesday";
+	break;
+	case 4:
+		
+	result="thursday";
+	break;
+	case 5:
+		result="friday";
+	break;
+	case 6:
+		result="saturday";
+	break;
+	}
+	return "invalidday"
+	};
+}
+}
+
+//*
